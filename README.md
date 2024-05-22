@@ -1,5 +1,35 @@
 # Curso: Teste Unitário
 
+## Assert
+Na estrutura de construção dos testes com o XUnit, utilizamos o Assert para verificar se as condições esperadas são verdadeiras durante a execução de um teste. O objetivo do Assert é garantir que o comportamento do código testado esteja de acordo com o que é esperado, trazendo retorno imediato.
+
+O Assert possui vários métodos que nos auxiliam a fazer essas verificações e que utilizamos de acordo com a nossa necessidade de verificação. Confira alguns dos mais utilizados:
+
+Assert.Equal: Verifica se dois valores são iguais.
+Assert.NotEqual: Verifica se dois valores não são iguais.
+Assert.True: Verifica se uma expressão é verdadeira.
+Assert.False: Verifica se uma expressão é falsa.
+Assert.Null: Verifica se um valor é nulo.
+Assert.NotNull: Verifica se um valor não é nulo.
+Assert.Contains: Verifica se uma coleção contém um determinado elemento.
+Assert.Throws: Verifica se um método lança uma exceção específica.
+Assert.Empty: Verifica se uma coleção está vazia.
+Assert.StartsWith: Verifica se uma string começa com determinado prefixo.
+Assert.EndsWith: Verifica se uma string termina com determinado sufixo.
+
+Você pode conferir uma breve explicação sobre cada um dos métodos do Assert no próprio VisualStudio ao digitar Assert. e passar o cursor sobre as opções que aparecerão como sugestão de completar automaticamente.
+
+## Give-When-Then ajuda
+
+O padrão Give-When-Then ajuda a estruturar os testes de maneira bem clara e compreensível seguindo uma abordagem descritiva que informa o comportamento esperado de um sistema em termos de entrada (give), ação (when) e saída (then). Nessas etapas temos:
+
+Give: fase onde é configurado o cenário para o teste;
+When: fase onde é executada a ação que se deseja testar;
+Then: fase onde é verificado o resultado da ação anterior.
+Os dois padrões são bem parecidos, porém possuem algumas diferenças básicas: por exemplo, o padrão AAA é mais focado na estruturação do teste em termos de organização do código e na execução do teste em si, destacando a preparação do ambiente de teste, a execução da ação e a verificação do resultado. Já o padrão Give-When-Then é mais orientado ao comportamento e coloca mais ênfase na descrição do comportamento do sistema em termos de entradas e saídas.
+
+No final, a decisão sobre qual padrão utilizar vai sempre depender da equipe envolvida no processo e também das particularidades de cada projeto.
+
 ## TDD ("Test-Driven Development")
 Tdd, ou "Test-Driven Development" (em português, Desenvolvimento Orientado a Testes), é uma abordagem de desenvolvimento de software que enfatiza a criação de testes automatizados antes da implementação do código de produção. O processo TDD segue um ciclo iterativo e incremental, composto por três etapas principais: Red, Green, e Refactor.
 
