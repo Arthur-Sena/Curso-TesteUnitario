@@ -19,6 +19,16 @@ Assert.EndsWith: Verifica se uma string termina com determinado sufixo.
 
 Você pode conferir uma breve explicação sobre cada um dos métodos do Assert no próprio VisualStudio ao digitar Assert. e passar o cursor sobre as opções que aparecerão como sugestão de completar automaticamente.
 
+## Outras notações do XUnit
+
+O XUnit trabalha com notações para identificar os testes que estão sendo escritos e conhecemos duas: Fact e Theory. Porém existem diversas outras notações do XUnit que podem ser utilizadas, como por exemplo:
+
+[TestFixture] - uma classe que contém um conjunto de testes de unidade relacionados;
+[Test] - utilizada para identificar testes distintos dentro de uma mesma classe de teste;
+[Ignore] - utilizada para ignorar um teste específico durante a execução;
+[Collection] - utilizada para agrupar testes em coleções específicas.
+Existem diversas outras notações do XUnit que podem ser utilizadas de acordo com a complexidade e a necessidade de cada projeto e casos de teste. 
+
 ## Give-When-Then ajuda
 
 O padrão Give-When-Then ajuda a estruturar os testes de maneira bem clara e compreensível seguindo uma abordagem descritiva que informa o comportamento esperado de um sistema em termos de entrada (give), ação (when) e saída (then). Nessas etapas temos:
