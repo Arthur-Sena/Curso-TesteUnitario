@@ -114,3 +114,17 @@ Alguns dos recursos que essa biblioteca nos oferece, são:
 - Integração com Frameworks de Teste: A biblioteca é facilmente integrada com frameworks de teste populares, como o xUnit. Isso simplifica a incorporação de dados falsos em seus casos de teste existentes.
 
 A utilização de dados falsos gerados pelo Bogus pode melhorar a cobertura de teste e a robustez de seus testes de unidade, permitindo simular uma variedade de cenários que podem ser difíceis de alcançar com dados reais. Isso ajuda a garantir que seu código seja testado de forma abrangente e confiável.
+
+## Boas práticas
+
+Aplicar boas práticas em testes de unidade é crucial para garantir a qualidade e a robustez do software desenvolvido. Os testes de unidade desempenham um papel fundamental no ciclo de desenvolvimento de software, pois permitem aos desenvolvedores verificar se cada componente individual do código funciona conforme o esperado.
+
+Em .NET, as boas práticas em testes de unidade envolvem diversos aspectos, desde a organização e estruturação dos testes até a escolha das técnicas e ferramentas adequadas. Durante este curso aplicamos algumas dessas boas práticas, como:
+
+- Organização e Estruturação: É essencial organizar os testes de forma clara e coesa. Uma estrutura bem organizada facilita a manutenção e a compreensão dos testes, além de tornar mais fácil localizar e corrigir possíveis falhas.
+- Testes Independentes e Isolados: Cada teste deve ser independente e isolado, ou seja, não deve depender do resultado de outros testes para ser executado corretamente. Isso garante que os testes possam ser executados em qualquer ordem e que as falhas possam ser identificadas e corrigidas de forma precisa.
+- Test-Driven Development (TDD): Essa prática promove a escrita de código mais limpo, modular e testável, além de garantir uma cobertura de teste mais abrangente desde o início do desenvolvimento.
+- Cobertura de Código: A cobertura de código ajuda a identificar áreas do código que não estão sendo testadas adequadamente, permitindo que os desenvolvedores priorizem esforços para melhorar a qualidade do teste.
+- Automação dos Testes: Isso garante que os testes sejam executados regularmente e de forma consistente, ajudando a identificar regressões e problemas de forma rápida e eficiente.
+
+Além dessas boas práticas que aplicamos durante este curso existem outras que também são super importantes para o desenvolvimento de softwares com maior qualidade e segurança.
