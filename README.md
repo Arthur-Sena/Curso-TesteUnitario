@@ -79,3 +79,25 @@ Aplicando o TDD ao projeto, conseguimos:
 - Facilita a refatoração: A abordagem de refatoração contínua ajuda a melhorar a qualidade do código ao longo do tempo.
 
 O TDD é amplamente utilizado em metodologias ágeis e é considerado uma prática importante para garantir a qualidade do software. Para saber mais sobre TDD e sua aplicação em projeto .NET, você pode acessar este artigo na documentação da Microsoft.
+
+## Cobertura de testes
+
+A cobertura de testes é uma medida usada para avaliar a eficácia dos testes em um código-fonte. Refere-se à porcentagem de código que é executada durante a execução de um conjunto de testes automatizados. A cobertura de testes é essencial para garantir a qualidade do código e a estabilidade do produto final.
+
+A cobertura de testes em .NET fornece uma métrica objetiva para avaliar a qualidade dos testes de um projeto. Isso ajuda as equipes de desenvolvimento a identificar áreas do código que não estão sendo devidamente testadas e aprimorar seus conjuntos de testes para alcançar uma cobertura mais abrangente.
+
+### Testes de mutação
+
+Testes de mutação são uma técnica avançada de teste de software que visa avaliar a eficácia dos testes de unidade identificando lacunas na cobertura do código. Os testes de mutação são particularmente úteis para garantir que os testes não apenas verifiquem a implementação atual do código, mas também sejam robustos o suficiente para detectar mudanças semânticas significativas que possam introduzir bugs.
+
+Os testes de mutação seguem o seguinte fluxo ao serem aplicados:
+
+- Introdução de mutações: Um processo automatizado é usado para introduzir pequenas alterações no código-fonte, conhecidas como mutações.
+
+- Execução dos testes: Depois que as mutações são introduzidas no código-fonte, os testes de unidade existentes são executados novamente. Se um teste de unidade falhar após a introdução de uma mutação, isso indica que o teste conseguiu detectar a mudança no comportamento do código.
+
+- Análise dos resultados: Os resultados dos testes de mutação são analisados para determinar a eficácia dos testes existentes. Se um grande número de mutações não são detectadas pelos testes, isso sugere que há lacunas na cobertura de teste e que os testes podem não ser robustos o suficiente para detectar todas as variações no comportamento do código.
+
+- Refinamento dos testes: Com base nos resultados da análise, as pessoas desenvolvedoras podem refinar os testes de unidade existentes ou adicionar novos testes para melhorar a cobertura e garantir que o código seja mais robusto contra alterações.
+
+Os testes de mutação são particularmente úteis em linguagens como C# devido à sua forte tipagem estática e às características do compilador que podem ocultar certos tipos de erros durante a compilação. Ao introduzir mutações no código-fonte e verificar se os testes conseguem detectá-las, as pessoas desenvolvedoras podem aumentar a confiança na qualidade e na robustez do código.
